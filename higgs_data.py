@@ -11,7 +11,7 @@ class preprocessing:
 
 		self.amount = amount
 
-		self.higgs_data = pd.read_csv("C:\\Users\\wndws10tp.DESKTOP-TTE2SIQ\\PycharmProjects\\neuraln\\higgs_boson_challenge\\training.csv").values
+		self.higgs_data = pd.read_csv("training.csv").values
 
 	def normalize(self):
 
